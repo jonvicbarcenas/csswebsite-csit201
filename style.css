@@ -59,6 +59,10 @@
     max-width: 100%;
     color: #fff;
     padding: 47px 68px;
+    transition: transform 0.3s ease;
+  }
+  .div-5:hover {
+    transform: scale(1.05);
   }
   @media (max-width: 991px) {
     .div-5 {
@@ -72,6 +76,10 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform 0.3s ease;
+  }
+  .div-5:hover .img-2 {
+    transform: scale(1.1);
   }
   .div-6 {
     position: relative;
@@ -79,6 +87,10 @@
     letter-spacing: -1.58px;
     margin-top: 197px;
     font: 900 48px Work Sans, sans-serif;
+    transition: font-size 0.3s ease;
+  }
+  .div-5:hover .div-6 {
+    font-size: 50px;
   }
   @media (max-width: 991px) {
     .div-6 {
@@ -92,6 +104,10 @@
     font-feature-settings: "dlig" on;
     margin-top: 57px;
     font: 400 16px/24px Work Sans, sans-serif;
+    transition: font-size 0.3s ease;
+  }
+  .div-5:hover .div-7 {
+    font-size: 18px;
   }
   @media (max-width: 991px) {
     .div-7 {
