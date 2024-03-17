@@ -4,8 +4,10 @@ html {
 
 body {
   scroll-behavior: smooth;
+  height: 100vh; 
+  margin: 0;
 }
-
+/* i thought dili mugana ang smooth scroll naa diay sa chrome ang prob AHHAHAAH */
 .div {
   align-items: center;
   background-color: #fff;
